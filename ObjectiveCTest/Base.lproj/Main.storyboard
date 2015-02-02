@@ -41,14 +41,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1b-V9-EN7">
-                                <rect key="frame" x="20" y="44" width="560" height="536"/>
+                                <rect key="frame" x="20" y="28" width="560" height="536"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrs-4e-Zye">
-                                        <rect key="frame" x="245" y="220" width="106" height="30"/>
+                                        <rect key="frame" x="227" y="323" width="106" height="30"/>
                                         <state key="normal" title="This is a button">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
+                                    <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0g4-f2-DGB">
+                                        <rect key="frame" x="0.0" y="40" width="560" height="162"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="444588682.88255799">
+                                            <!--2015-02-02 16:51:22 +0000-->
+                                        </date>
+                                    </datePicker>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
